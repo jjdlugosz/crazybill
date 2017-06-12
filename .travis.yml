@@ -8,4 +8,4 @@ deploy:
   app: crazybill-jdlugosz
   on:
     repo: jjdlugosz/crazybill
-    branch: continous-integration
+    branch: master
