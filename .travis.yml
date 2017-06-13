@@ -1,3 +1,11 @@
 language: java
 jdk:
 - oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: mpJK1sNcBgr7UTDAS77vyySrOTdUMy+Wn3j0TdvGX+/0RNtoO5t4EDyKojAlnlT2jJ2V1MjRfGA1aOSmS7OPolVk7/ntwtFDwOnJE/lFjXJAFB6SpxOGJGxB5ASAZjULKYIj9V8fZM73PfK83EB2hdIRqb3byXdGwW2SLHzBVgv5aEAnJGiJ7T89skyys3qaSTEMJxMv25kXoDGerccY8DNhO5QPwY2P4vKhz8yh3ptGTjMhyJFZjZkV3BNt/f/RWhzzZem+Qj6Pc5o0kkpmp7uN5VWNVfGvA/MDxSVZACJRQsXXWkC++pE6XoMcmt2c5Z2DpZqCHnGdnoZSWxwQ+ZgOq+ZrnhlQ02EYLCNogeemZkgyk4KZM3XxhklZyNXhIxWyO8dZTtxcweXODF6tKq+Nc3wqrLyoI2a4nQXjFLN2Y1Cs4dQpbf7IEdqtQA6y/zqxbcY0cJJL/0c25cDgpNLXdVQhcZXr9cgy3WP1unZOW4Ympu+yqAFK5Q5TQe/o7R8nJz7SlxYOLs1Z9H9vQjA5qzxY4ccPLG/k20YUzoe+rZpTnf36qQPP5ROuwalSA6AyGCpo5QsSDKdwvLQwEySp1S5y/g+l98GQSfXJEnoVHTsU4zul3xXD10NBCsgcuHQ8/U+e0RA/xdDlV8w4sJlmpM1lvmUKO4vmtWKrrkY=
+  app: crazybill-jdlugosz
+  on:
+    repo: jjdlugosz/crazybill
+    branch: master
